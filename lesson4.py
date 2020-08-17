@@ -93,7 +93,7 @@ import math
 
 a = int(input("Введите ширину бруса: "))
 d = float(input("Введите диаметр бревна: "))
-c = math.sqrt(a*a)
+c = math.sqrt(a*a*2)
 if c<=d:
     print("Можем")
 else:
